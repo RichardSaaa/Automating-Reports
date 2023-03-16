@@ -14,7 +14,7 @@ time.sleep(3)
 
 #Segunda Fase > Abrir E-mail
 pyautogui.hotkey("ctrl", "t")
-pyautogui.write("https://drive.google.com/drive/my-drive")
+pyautogui.write("https://drive.google.com")
 pyautogui.press("enter")
 
 time.sleep(3)
@@ -63,7 +63,7 @@ pyautogui.click(x=74, y=168)
 
 time.sleep(5)
 pyautogui.click(x=857, y=281)
-pyautogui.write("richardalvessantos@gmail.com")
+pyautogui.write("seuemail@gmail.com")
 time.sleep(3)
 
 pyautogui.click(x=803, y=324)
