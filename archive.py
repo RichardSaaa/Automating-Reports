@@ -53,7 +53,7 @@ time.sleep(3)
 #Quinta Fase > Enviando E-mail
 
 pyautogui.hotkey("ctrl", "t")
-pyautogui.write("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox")
+pyautogui.write("https://mail.google.com")
 pyautogui.press("enter")
 time.sleep(3)
 
